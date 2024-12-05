@@ -7,8 +7,8 @@ global cwd
 cwd = os.getcwd()
 
 root = Tk()
-root.iconbitmap("ranger_small.ico")
-root.title('Ranger')
+root.iconbitmap("cap_small.ico")
+root.title('Wizard')
 
 SB_7  = ImageTk.PhotoImage(Image.open(cwd + "\\ranges\\7_SB.png"))
 BB_7  = ImageTk.PhotoImage(Image.open(cwd + "\\ranges\\7_BB.png"))
