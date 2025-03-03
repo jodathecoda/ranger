@@ -7,7 +7,7 @@ global cwd
 cwd = os.getcwd()
 
 root = Tk()
-root.iconbitmap("ranger_big.ico")
+root.iconbitmap("icons\\swiss_small.ico")
 root.title('Ranger')
 
 SB_7  = ImageTk.PhotoImage(Image.open(cwd + "\\ranges\\7_SB.png"))
